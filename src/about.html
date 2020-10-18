@@ -6,7 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Страница с информацией для клиентов">
         <meta name="author" content="Anastasia Bukreeva">
-        <link rel="stylesheet" href="./pages/about.css">
+        <!--<link rel="stylesheet" href="./pages/about.css">-->
+
+        <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
         <title>Dyplomna</title>
       </head>
       <body>
@@ -19,7 +21,7 @@
                         <a class="search__header_menu link " href="index.html">Главная</a> 
                     </li>
                     <li class='search__header_link'> 
-                        <a class="search__header_menu link__black link__black_active" href="./about.html">О проекте</a> <!-- ссыль на cтраницуу-->
+                        <a class="search__header_menu link__black link__black_active" href="./about.html">О проекте</a> 
                     </li>
                 </ul>
             </div>
@@ -53,22 +55,22 @@
     <div class="techno__types">
         <div class="techno__type">
             <span class="techno__name">HTML</span>
-            <img class="techno__logo" src="./images/icons/html.svg">
+            <img class="techno__logo" src="<%=require('./images/icons/html.svg')%>">
         </div>
 
         <div class="techno__type">
             <span class="techno__name">CSS</span>
-            <img class="techno__logo" src="./images/icons/css.svg">
+            <img class="techno__logo" src="<%=require('./images/icons/css.svg')%>">
         </div>
 
         <div class="techno__type">
             <span class="techno__name">Java Script</span>
-            <img class="techno__logo" src="./images/icons/js.svg">
+            <img class="techno__logo" src="<%=require('./images/icons/js.svg')%>">
         </div>
 
         <div class="techno__type">
             <span class="techno__name">Webpack</span>
-            <img class="techno__logo" src="./images/icons/webpack.svg">
+            <img class="techno__logo" src="<%=require('./images/icons/webpack.svg')%>">
         </div>
     </div>
 </div>
@@ -79,7 +81,7 @@
         <section class="author">
             <img
             class="author__photo"
-            src="./images/pictures/author.jpg"
+            src="<%=require('./images/pictures/author.jpg')%>"
             alt="Author's photo">
             <div class="author__info">
                 <p class="author__title">Об авторе</p>
@@ -93,7 +95,7 @@
         <section class="commits">
             <div class="commits__header">
                 <p class="commits__title">История коммитов из GitHub</p>
-                <a href="#" class="commits__link">Открыть в GitHub ></a>
+                <a href="https://github.com/AnastasiaBukreeva" class="commits__link">Открыть в GitHub ></a>
             </div>
 
             <div class="commits__container">
@@ -101,7 +103,7 @@
                 <div class="commits__card">
                     <span class="commits__date">2 августа, 2019</span>
                     <div class="commits__person">
-                        <img class="commits__photo" src="./images/pictures/author_mini_03.jpg" alt="Inga's photo"/>
+                        <img class="commits__photo" src="<%=require('./images/pictures/author_mini_03.jpg')%>" alt="Inga's photo"/>
                         <div class="commits__block">
                             <p class="commits__name">Инга Иванова</p>
                             <span class="commits__email">ingaiva@yandex.ru</span>
@@ -115,7 +117,7 @@
                 <div class="commits__card">
                     <span class="commits__date">2 августа, 2019</span>
                     <div class="commits__person">
-                        <img class="commits__photo" src="./images/pictures/author_mini_03.jpg" alt="Inga's photo"/>
+                        <img class="commits__photo" src="<%=require('./images/pictures/author_mini_03.jpg')%>" alt="Inga's photo"/>
                         <div class="commits__block">
                             <p class="commits__name">Инга Иванова</p>
                             <span class="commits__email">ingaiva@yandex.ru</span>
@@ -129,7 +131,7 @@
                 <div class="commits__card">
                     <span class="commits__date">2 августа, 2019</span>
                     <div class="commits__person">
-                        <img class="commits__photo" src="./images/pictures/author_mini_03.jpg" alt="Inga's photo"/>
+                        <img class="commits__photo" src="<%=require('./images/pictures/author_mini_03.jpg')%>" alt="Inga's photo"/>
                         <div class="commits__block">
                             <p class="commits__name">Инга Иванова</p>
                             <span class="commits__email">ingaiva@yandex.ru</span>

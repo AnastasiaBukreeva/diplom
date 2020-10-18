@@ -1,3 +1,5 @@
+@import url('../vendor/normalize.css');
+
 @import url('../blocks/author/author.css');
 @import url('../blocks/body/body.css');
 @import url('../blocks/link/link.css');
