@@ -1,0 +1,39 @@
+@import url('./__analitics/results__analitics.css');
+@import url('./__card/results__card.css');
+@import url('./__container/results__container.css');
+@import url('./__header/results__header.css');
+@import url('./__main/results__main.css');
+@import url('./__photo/results__photo.css');
+@import url('./__text/results__text.css');
+@import url('./__main-title/results__main_title.css');
+@import url('./__sourse/results__sourse.css');
+@import url('./__title/results__title.css');
+@import url('./__date/results__date.css');
+
+
+.results {
+    background: #f5f6f7;
+    padding: 80px 0;
+    overflow: hidden;
+    max-width: 1440px;
+
+
+    margin: 0 auto;
+    padding: 0 104px;
+    box-sizing: border-box;
+    padding-bottom: 80px;
+}
+
+@media screen and (max-width:720px) {
+    .results{
+        padding: 0 40px;
+        padding-bottom: 44px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .results{
+        padding: 0 16px;
+        padding-bottom: 44px;
+    }
+}

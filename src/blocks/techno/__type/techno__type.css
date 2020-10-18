@@ -1,0 +1,13 @@
+.techno__type {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 120px;
+    padding-right: 40px;
+}
+
+@media screen and (max-width: 991px) {
+    .techno__type {
+        padding-right: 0;
+    }
+}

@@ -1,0 +1,6 @@
+.search__header {
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}

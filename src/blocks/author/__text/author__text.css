@@ -1,0 +1,26 @@
+.author__text {
+    font-family: Roboto,Arial,Helvetica,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1a1b22;
+    max-width: 600px;
+}
+@media screen and (max-width: 991px) {
+.author__text {
+    margin: 16px 0 0;
+}
+}
+
+@media screen and (max-width: 700px) {
+    .author__text {
+        margin-left: 30px;
+    }
+    }
+
+@media screen and (max-width: 500px) {
+.author__text {
+    margin: 20px 0 0;
+}
+}

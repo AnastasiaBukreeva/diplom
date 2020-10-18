@@ -1,0 +1,15 @@
+.stats__item {
+    display: grid;
+    grid-template-columns: 104px 1fr;
+    grid-column-gap: 0px;
+    align-items: center;
+    max-height: 24px;
+    margin: 0px 0px 56px 0px;
+}
+
+@media screen and (max-width: 500px) {
+    .stats__item {
+        grid-template-columns: 64px 1fr;
+        margin-bottom: 30px;
+    }
+}

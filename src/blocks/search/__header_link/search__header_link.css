@@ -1,0 +1,16 @@
+.search__header_link {
+    margin-left: 34px;
+
+    font-family: Roboto,Arial,Helvetica,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #b6bcbf;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+.search__header_link {
+    margin-left: 11px;
+}}
