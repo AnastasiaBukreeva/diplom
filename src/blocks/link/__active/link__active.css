@@ -1,0 +1,5 @@
+.link__active {
+    color: #fff;
+    border-bottom: 3px solid #fff;
+    padding-bottom: 26px;
+}

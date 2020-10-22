@@ -1,0 +1,20 @@
+.techno__container {
+    padding: 0 104px;
+    box-sizing: border-box;
+
+    display: flex;
+}
+@media screen and (max-width: 991px) {
+.techno__container {
+    padding: 0 40px;
+
+    flex-direction: column;
+}
+}
+
+@media screen and (max-width: 500px) {
+.techno__container {
+    padding: 0 16px;
+}
+}
+

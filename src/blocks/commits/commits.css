@@ -1,0 +1,26 @@
+@import url('./__card/commits__card.css');
+@import url('./__container/commits__container.css');
+@import url('./__date/commits__date.css');
+@import url('./__email/commits__email.css');
+@import url('./__header/commits__header.css');
+@import url('./__link/commits__link.css');
+@import url('./__name/commits__name.css');
+@import url('./__person/commits__person.css');
+@import url('./__photo/commits__photo.css');
+@import url('./__text/commits__text.css');
+@import url('./__title/commits__title.css');
+@import url('./__block/commits__block.css');
+
+.commits {
+    background: #f5f6f7;
+    padding: 80px 0;
+    overflow: hidden;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 500px) {
+.commits {
+    padding: 32px 0;
+}
+}

@@ -1,0 +1,9 @@
+@import url('./__text/clients__text.css');
+@import url('./__title/clients__title.css');
+@import url('./__main/clients__main.css');
+
+.clients {
+   
+    max-width: 1440px;
+    margin: 0 auto;
+}

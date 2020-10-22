@@ -1,0 +1,25 @@
+.clients__main {
+    margin-left: 104px;
+    max-width: 815px;
+    padding: 80px 0 94px;
+
+}
+
+@media screen and (max-width: 900px) {
+    .clients__main{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .clients__main{
+       padding: 40px 0 40px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .clients__main{
+        margin: 0 16px;
+        padding: 17px 0 17px;
+    }
+}

@@ -1,0 +1,26 @@
+.author__photo {
+    max-width: 464px;
+    min-width: 232px;
+    max-height: 464px;
+    min-height: 232px;
+    height: 100%;
+    width: 100%;
+    margin-right: 56px;
+}
+
+@media screen and (max-width: 770px) {
+    .author__photo {
+      max-width: 232px;
+      margin-right: 32px;
+    }
+    }
+@media screen and (max-width: 700px) {
+.author__photo {
+    max-width: 300px;
+    align-self: center;
+    margin-right: 0;
+    margin-bottom: 24px;
+    
+}
+}
+

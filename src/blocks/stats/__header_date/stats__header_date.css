@@ -1,0 +1,15 @@
+.stats__header_date {
+    max-width: 50px;
+
+    font-family: Roboto,Arial,Helvetica,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: .4px;
+    text-transform: uppercase;
+    color: #b6bcbf;
+    margin: 0;
+
+
+}

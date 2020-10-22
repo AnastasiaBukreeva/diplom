@@ -1,0 +1,28 @@
+.request__data {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1a1b22;
+    margin: 0px;
+    padding-bottom: 4px;
+
+    padding-left: 104px;
+   
+  }
+
+  @media screen and (max-width: 900px) {
+    .request__data {
+        padding: 0 40px;
+        
+      
+    }
+    }
+
+@media screen and (max-width: 500px) {
+.request__data {
+    padding: 0 16px;
+    
+}
+}
