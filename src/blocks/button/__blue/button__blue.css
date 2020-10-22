@@ -6,6 +6,10 @@
     color: #fff;
     box-shadow: 0 5px 15px rgba(14,26,57,.2);
 }
+
+.button__blue:hover {
+    background: #347EFF;
+}
 @media screen and (max-width: 500px){
     .button__blue {
         position: relative;

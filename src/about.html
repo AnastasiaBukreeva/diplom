@@ -79,10 +79,16 @@
 
 
         <section class="author">
+            <picture class="about__photo">
+                <source
+                  srcset="<%=require('./images/pictures/author.webp')%>"
+                  type="image/webp"
+                />
             <img
             class="author__photo"
             src="<%=require('./images/pictures/author.jpg')%>"
             alt="Author's photo">
+            </picture>
             <div class="author__info">
                 <p class="author__title">Об авторе</p>
                 <p class="author__text">Это блок с описанием автора проекта. Здесь следует указать, как вас
@@ -103,7 +109,11 @@
                 <div class="commits__card">
                     <span class="commits__date">2 августа, 2019</span>
                     <div class="commits__person">
+                        <picture class="commits__photo">
+                        <source srcset="<%=require('./images/pictures/author_mini_03.webp')%>" type="image/webp"/>
                         <img class="commits__photo" src="<%=require('./images/pictures/author_mini_03.jpg')%>" alt="Inga's photo"/>
+                        </picture>
+                        
                         <div class="commits__block">
                             <p class="commits__name">Инга Иванова</p>
                             <span class="commits__email">ingaiva@yandex.ru</span>
@@ -117,7 +127,10 @@
                 <div class="commits__card">
                     <span class="commits__date">2 августа, 2019</span>
                     <div class="commits__person">
-                        <img class="commits__photo" src="<%=require('./images/pictures/author_mini_03.jpg')%>" alt="Inga's photo"/>
+                        <picture class="commits__photo">
+                            <source srcset="<%=require('./images/pictures/author_mini_03.webp')%>" type="image/webp"/>
+                            <img class="commits__photo" src="<%=require('./images/pictures/author_mini_03.jpg')%>" alt="Inga's photo"/>
+                            </picture>
                         <div class="commits__block">
                             <p class="commits__name">Инга Иванова</p>
                             <span class="commits__email">ingaiva@yandex.ru</span>
@@ -131,7 +144,10 @@
                 <div class="commits__card">
                     <span class="commits__date">2 августа, 2019</span>
                     <div class="commits__person">
-                        <img class="commits__photo" src="<%=require('./images/pictures/author_mini_03.jpg')%>" alt="Inga's photo"/>
+                        <picture class="commits__photo">
+                            <source srcset="<%=require('./images/pictures/author_mini_03.webp')%>" type="image/webp"/>
+                            <img class="commits__photo" src="<%=require('./images/pictures/author_mini_03.jpg')%>" alt="Inga's photo"/>
+                            </picture>
                         <div class="commits__block">
                             <p class="commits__name">Инга Иванова</p>
                             <span class="commits__email">ingaiva@yandex.ru</span>

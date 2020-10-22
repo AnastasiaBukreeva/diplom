@@ -25,13 +25,24 @@ module.exports = {
                 }
             },
             {
-                test: /\.css$/i,
+                test: /\.css$/,
                 use: [
-                                (isDev ? 'style-loader' : MiniCssExtractPlugin.loader),
-                                'css-loader', 
-                                'postcss-loader'
-                        ]
-        },
+
+                  isDev ? 'style-loader' :  {
+                    loader: MiniCssExtractPlugin.loader,
+                    options: {
+                      publicPath: "../",
+                    },
+                  },
+                  {
+                    loader: "css-loader",
+                    options: {
+                      importLoaders: 2,
+                    },
+                  },
+                  "postcss-loader",
+                ],
+              },
 
             {
                 test: /\.(eot|ttf|woff|woff2)$/,
