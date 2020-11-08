@@ -1,12 +1,15 @@
 .card__title{
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: normal;
-    font-size: calc( (100vw - 678px)/(1440 - 678)*(26 - 22) + 22px);
-    line-height: calc( (100vw - 678px)/(1440 - 678)*(30 - 24) + 24px);
-    color: #1A1B22;
-    align-self: flex-start;
+    
     margin: 12px 24px 16px 24px;
+    font-family: RobotoSlab,Arial,Helvetica,sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    font-style: normal;
+    color: #1a1b22;
+    text-overflow: ellipsis; 
+    overflow: hidden; 
+    white-space: nowrap;
 }
 
 @media screen and (min-width: 1440px) {

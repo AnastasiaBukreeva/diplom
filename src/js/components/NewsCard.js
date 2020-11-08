@@ -22,7 +22,7 @@ export class NewsCard {
     	return elem.firstChild;
     }
 
-    create = () => {
+    create () {
         this.card = this.template()
         this.card.querySelector('.card__image').setAttribute("src", `${this.img}`);
         this.card.querySelector('.card__date').textContent = this.date;
