@@ -1,0 +1,13 @@
+.techno__types {
+    display: flex;
+    width: 100%;
+    margin-top: 13px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 991px) {
+.techno__types {
+    justify-content: space-between;
+    margin-top: 40px;
+}
+}

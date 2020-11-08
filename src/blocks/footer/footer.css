@@ -1,0 +1,18 @@
+@import url('./__copyright/copyright.css');
+@import url("./__container/container.css");
+@import url('./__list/list.css');
+@import url('./__link/link.css');
+@import url("./__menu-link/menu-link.css");
+
+@import url('./__nav/nav.css');
+@import url('./__elem/elem.css');
+
+@import url("./__elem/_fb/fb.css");
+@import url("./__elem/_github/github.css");
+@import url('./__icon/icon.css');
+@import url('./__icons/icons.css');
+
+.footer {
+  max-width: 100%;
+  max-height: 100%;
+}

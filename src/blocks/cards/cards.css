@@ -1,0 +1,17 @@
+@import url(./__arrow/cards__arrow.css);
+@import url(./__shadow/cards__shadow.css);
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+    margin-bottom: 48px;
+    position: relative;
+}
+
+@media screen and (max-width: 991px) {
+    .cards {
+        margin: 32px 0;
+        justify-content: flex-start;
+    }
+}

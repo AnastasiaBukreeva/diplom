@@ -1,0 +1,15 @@
+@import url(./_left/cards__shadow_left.css);
+@import url(./_right/cards__shadow_right.css);
+
+.cards__shadow {
+    position: absolute;
+    z-index: 5;
+    width: 88px;
+    height: 288px;
+}
+
+@media screen and (max-width: 991px) {
+    .cards__shadow {
+        display: none;
+    }
+}
