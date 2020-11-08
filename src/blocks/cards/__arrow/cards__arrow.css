@@ -1,0 +1,24 @@
+@import url(./_right/cards__arrow_right.css);
+@import url(./_left/cards__arrow_left.css);
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    display: none;
+}
+
+.swiper-button-prev.cards__arrow,
+.swiper-button-next.cards__arrow {
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 1000px;
+    color: white;
+}
+
+@media screen and (max-width: 991px) {
+
+    .swiper-button-prev.cards__arrow,
+    .swiper-button-next.cards__arrow {
+        display: none;
+    }
+}
